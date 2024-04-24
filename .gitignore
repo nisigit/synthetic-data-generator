@@ -1,0 +1,12 @@
+# Config
+.DS_Store
+.vscode
+.idea
+__pycache__/
+
+# Data
+*.csv
+output/
+activity/
+active_emails/
+*.txt
