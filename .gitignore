@@ -9,4 +9,5 @@ __pycache__/
 output/
 activity/
 active_emails/
+email-Eu/
 *.txt
