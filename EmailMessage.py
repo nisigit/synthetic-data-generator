@@ -1,9 +1,10 @@
 from typing import List
 from datetime import datetime
 
-class EnronEmail:
-    def __init__(self, id: str, sender: str, recipients: List[str], time: datetime) -> None:
-        self.id = id
+
+class EmailMessage:
+    def __init__(self, message_id: str, sender: str, recipients: List[int], time: datetime) -> None:
+        self.id = message_id
         self.sender = sender
         self.recipients = recipients
         self.time = time
